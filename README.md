@@ -1,4 +1,4 @@
-# [Site (GitHub Pages)](https://elsy0111.github.io/Standings/)
+# [Site (GitHub Pages)](https://elsy0111.github.io/ICPC2024_Domestic-qual-result/)
 
 # Announce
 ### 本順位表は絶対的なものではありません
