@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const teams = document.querySelectorAll('.team-row');
     const selectedTeams = [];
     const universityCount = {};
+    
+    const host_univ = 'TokyoInstituteofTechnology';
+    let host_univ_selected = false;
 
     teams.forEach((team, index) => {
         let university = team.querySelector('.team-name small span').textContent.trim();
@@ -17,21 +20,26 @@ document.addEventListener("DOMContentLoaded", function () {
             if (selectedCount < 25) {
                 if (universitySelectedCount >= 3) {
                     isSelected = false;
-                    cause = 'Rejected : Univ. teams >= 3 selected (rule-2)';
+                    cause = 'Rejected : Univ. teams > 3 selected (rule1-2)';
                 }
             } else if (selectedCount < 40) {
                 if (universitySelectedCount >= 2) {
                     isSelected = false;
-                    cause = 'Rejected : Univ. teams >= 2 selected (rule-3)';
+                    cause = 'Rejected : Univ. teams > 2 selected (rule1-3)';
                 }
             } else if (selectedCount < 49) {
                 if (universitySelectedCount >= 1) {
                     isSelected = false;
-                    cause = 'Rejected : Univ. teams >= 1 selected (rule-4)';
+                    cause = 'Rejected : Univ. teams > 1 selected (rule1-4)';
                 }
             } else if (selectedCount >= 49) {
                 isSelected = false;
-                cause = 'Rejected cause: Maximum teams >= 49 selected';   
+                cause = 'Rejected cause: Maximum teams = 49 selected';   
+            }
+            if (isSelected === false && host_univ_selected === false && university === host_univ){
+                host_univ_selected = true;
+                isSelected = true;
+                cause = 'Accepted : Host university (rule2)';
             }
         }
 
