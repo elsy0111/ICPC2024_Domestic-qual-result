@@ -1,0 +1,26 @@
+=======Kyushu Standings[top]=======
+ 37[5] Kyushu Institute of Technology[1/3]
+ 56[5] National Institute of Technology, Ariake College[1/1]
+ 79[4] Kyushu University[1/2]
+ 96[4] Saga University[1/2]
+150[3] Kumamoto University[1/1]
+166[3] The University of Kitakyushu[1/1]
+204[3] National Institute of Technology, Kurume College[1/1]
+273[3] Fukuoka Institute of Technology[1/2]
+===================================
+
+==========Kyushu Standings==========
+ 37[5] Kyushu Institute of Technology[1/3]
+ 56[5] National Institute of Technology, Ariake College[1/1]
+ 79[4] Kyushu University[1/2]
+ 95[4] Kyushu University[2/2]
+ 96[4] Saga University[1/2]
+101[4] Kyushu Institute of Technology[2/3]
+150[3] Kumamoto University[1/1]
+166[3] The University of Kitakyushu[1/1]
+204[3] National Institute of Technology, Kurume College[1/1]
+265[3] Kyushu Institute of Technology[3/3]
+273[3] Fukuoka Institute of Technology[1/2]
+275[3] Fukuoka Institute of Technology[2/2]
+309[2] Saga University[2/2]
+====================================
